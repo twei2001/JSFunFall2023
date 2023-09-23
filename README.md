@@ -34,6 +34,6 @@ npm install
 
 - Installation Guide: [Mac](docs/InstallationGuideMac.md) | [Windows](docs/InstallationGuideWindows.md) | [Linux](docs/InstallationGuideLinuxAndNVM.md)
 - JavaScript - [MDN](https://developer.mozilla.org/en-US/) (Unofficial JavaScript Manual) | [Tutorials](https://javascript.info/)
-- Command Line: [Unix Crash Course](https://itnext.io/unix-command-line-crash-course-453e409d62f5) | [Unix Cheat Sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) | [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/) | [NPM Guide](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
+- Command Line: [Command line crash course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | [Unix Cheat Sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) | [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/) | [NPM Guide](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 - Git: [Git Commands for Beginners](http://rogerdudler.github.io/git-guide/) | [First Contributions Tutorial](https://github.com/firstcontributions/first-contributions)
 - Visual Studio Code: [Mac Keyboard Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) | [Windows Keyboard Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) | [Getting Started](https://code.visualstudio.com/docs/getstarted/introvideos) | [How to use Quokka.js](https://debug.to/1441/quokka-js-extension-for-visual-studio-code)

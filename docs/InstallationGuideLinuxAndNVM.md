@@ -42,7 +42,7 @@ Depending on your Linux distro, you could replacing _brew_ with _apt_, _apt-get_
 
 #### 3. We recommend you install Node.js with NVM
 
-We will be using the latest even numbered version of Node.js, and the default Node.js packages are typically a few major versions behind. A command like e.g. `sudo apt-get install -y nodejs` will not get you the latest LTS version (18.x as of February 2023). NVM will allow you to install the latest LTS version.
+We will be using the latest even numbered version of Node.js, and the default Node.js packages are typically a few major versions behind. A command like e.g. `sudo apt-get install -y nodejs` will not get you the latest LTS version (18.x as of October 2023). NVM will allow you to install the latest LTS version.
 
 # Node Version Manager (NVM)
 
@@ -58,10 +58,10 @@ This is not for beginners. If you are new to the command line or installing node
 
 Write down what version of Node.js you have. You can find this out by typing `node -v`
 
-If you have any existing projects, create a file called _.nvmrc_ your projects' root. Open the file and add your current Node.js version to it. So, for example, if current version of Node.js is 15.22.0 you would type and save the following:
+If you have any existing projects, create a file called _.nvmrc_ your projects' root. Open the file and add your current Node.js version to it. So, for example, if current version of Node.js is 16.22.0 you would type and save the following:
 
 ```
-v15.22.0
+v16.22.0
 ```
 
 Finally, before installing NVM, you will need to uninstall your current version Node.js and NPM. How you uninstall depends on your Operating System and how you installed Node.js. For example:
@@ -114,7 +114,7 @@ touch ~/.bash_profile
 This will download and install NVM.
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 
 In your terminal, you should see a success message like the following:
@@ -141,27 +141,27 @@ nano ~/.profile
 
 Paste the `export NVM_DIR="$HOME/.nvm"` ... lines, save and exit. Repeat for each profile file that already exists.
 
-Restart your terminal. Type `nvm --version`. You should see a version number like e.g. _0.38.0_.
+Restart your terminal. Type `nvm --version`. You should see a version number.
 
 ## Using NVM
 
-You have NVM installed, but you still need to install Node.js. You will need to have the latest LTS version of Node installed as of February 2023 (18.x).
+You have NVM installed, but you still need to install Node.js. You will need to have the latest LTS version of Node installed as of October 2023 (18.x).
 
 ```
 nvm install --lts
 ```
 
-If you are working with NVM because you have older Node.js projects, you can install older versions of Node.js by specificizing the version number. For example, if need version 15.22.0:
+If you are working with NVM because you have older Node.js projects, you can install older versions of Node.js by specificizing the version number. For example, if need version 16.22.0:
 
 ```bash
-nvm install 15.22.0
+nvm install 16.22.0
 ```
 
 To switch between node versions, you can specify the version.
 
 ```bash
 nvm use node # latest version installed
-nvm use 15.22.0 # specific version
+nvm use 16.22.0 # specific version
 ```
 
 If you have a _.nvmrc_ file in your project root, then you do not need to specify the version number from inside your project.
@@ -174,7 +174,7 @@ However, `nvm use` will only set the node version in the terminal window that yo
 
 ```bash
 nvm alias default node # latest version installed
-nvm alias default 15.22.0 # specific version
+nvm alias default 16.22.0 # specific version
 ```
 
 See more [usage instructions](https://github.com/nvm-sh/nvm#usage) and ["How to Lock down Your Project’s Node Version Using .Nvmrc Or engines"](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245).

@@ -6,7 +6,7 @@
 2. Visual Studio Code (Recommended) and Plugins
 3. Git for Windows and Github
 4. Node.js (latest LTS version) and NPM Packages
-5. Chrome or Firefox (Recommended)
+5. Chrome, Firefox, or Edge (Recommended)
 
 ## Microsoft Teams
 
@@ -56,13 +56,13 @@ We recommend you select _Use Visual Studio Code as Git's default editor_ from th
 
 To avoid unnecessary merge conflicts (believe me, merge conflicts are very frustrating), please make sure _Checkout Windows-style, commit Unix-style line endings_ is selected.
 
-When you finish installing, you should see Git Bash on your computer. Open it, type `git --version` to confirm that it works. You should see something like _git version 2.37.3_. Then close out of Git Bash.
+When you finish installing, you should see Git Bash on your computer. Open it, type `git --version` to confirm that it works.
 
 ## Node.js and NPM Packages
 
 Node.js is a JavaScript runtime engine. It allows you to run JavaScript programs outside of Chrome, Safari, Edge or another web browser.
 
-You will need to have the latest LTS version of Node installed as of February 2023 (18.x). If you already have Node.js installed, type `node -v` in Git Bash. If you do not have the latest version, you will need to remove Node.js and reinstall it again.
+You will need to have the latest LTS version of Node installed as of October 2023 (18.x). If you already have Node.js installed, type `node -v` in Git Bash. If you do not have the latest version, you will need to remove Node.js and reinstall it again.
 
 If Node.js is up-to-date, you should update NPM. You can update it with:
 
@@ -108,6 +108,16 @@ Open the Extensions tab on the left, search for _ESLint_ and install _ESLint_.
 
 Once its installed, the _Install_ button may have transformed into a _Reload_ button. If you see _Reload_, click on it.
 
+### Bracket Colorization Setting
+
+Bracket Colorization is a simple setting that makes it much easier to debug issues with closes curly braces, brackets, and parentheses. To enable, press `ctrl+shift+p`. Search for _settings_ and click on _Open Settings (UI)_.
+
+![](install-screens/settings-search.png)
+
+Then search for _bracket pair colorizer_. You should see the setting _Editor > Bracket Pair Colorization_. Click on the checkbox to enable it.
+
+![](install-screens/vscode-color-brackets.png)
+
 ### Quokka.js
 
 [Quokka.js](https://quokkajs.com/docs/?editor=vsc) is a sandbox that lets you play with JavaScript inside Visual Studio Code and other popular code editors. Search for _Quokka_ in the Extensions tab on the left and install _Quokka.js_. Once its installed, click on _Reload_ if necessary.
@@ -126,7 +136,7 @@ Prettier automatically formats your code and you can configure it to format your
 
 If you would like to use prettier, search for _Prettier_ in the Extensions tab on the left and install _Prettier - Code formatter_. Once its installed, click on _Reload_ if necessary.
 
-You can now adjust Visual Studio's settings so that it will format on save and will play nicely with Prettier's defaults. Press `command+shift+p,` search for _settings_ and click on _Preferences: Open Settings (JSON))_.
+You can now adjust Visual Studio's settings so that it will format on save and will play nicely with Prettier's defaults. Press `ctrl+shift+p,` search for _settings_ and click on _Preferences: Open Settings (JSON))_.
 
 ![](install-screens/settings-search.png)
 
@@ -138,9 +148,9 @@ Paste the following into the JSON file. Do not overwrite any settings that you a
   "editor.tabSize": 2,
 ```
 
-## Chrome or Firefox (Recommended)
+## Chrome, Firefox, or Edge (Recommended)
 
-You should use any modern browser that has good Developer Tools available. (In other words, not Internet Explorer). We recommend Chrome because we will be demonstrating Chrome's tools in class, or Firefox:
+You should use any modern browser that has good Developer Tools available. (In other words, not Internet Explorer). We recommend Chrome because we will be demonstrating Chrome's tools in class. Firefox and Edge are also a great choices.
 
 - [Chrome](https://www.google.com/chrome/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
