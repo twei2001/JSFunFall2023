@@ -1,0 +1,21 @@
+{
+  "name": "jsfunsfall2023",
+  "version": "1.0.0",
+  "description": "CanCode Communities' JavaScript Fundamentals Class",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "testAll": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbanyCanCodeCourses/JSFunFall2023"
+  },
+  "author": "CanCode Communities",
+  "homepage": "https://github.com/AlbanyCanCodeCourses/JSFunFall2023#readme",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "sinon": "^16.0.0"
+  }
+}
