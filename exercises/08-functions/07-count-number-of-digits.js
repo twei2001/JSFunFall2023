@@ -10,3 +10,7 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const countNumberOfDigits = (int) =>{
+    return int.toString().length;
+}
+console.log(countNumberOfDigits(53325))
