@@ -15,3 +15,6 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+student.name = 'Turwaina Weish'
+student.skills = [...student.skills, 'CSS']
+console.log(student)

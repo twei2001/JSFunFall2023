@@ -8,3 +8,9 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const myDog = {
+    name: 'Rocky',
+    breed: 'German Shepherd',
+    age: 3,
+    owners: ['Tom', 'Maria', 'Charlie']
+}
