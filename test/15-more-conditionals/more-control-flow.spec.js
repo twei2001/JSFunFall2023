@@ -2,9 +2,9 @@ import { expect } from "chai";
 import {
   isEvenOrOdd,
   getErrorMessage,
-} from "./more-conditionals-test-helper.js";
+} from "./more-control-flow-test-helper.js";
 
-describe("More Conditionals", () => {
+describe("More Control Flow", () => {
   describe("01-ternary-operator", () => {
     it('"isEvenOrOdd" should equal "even" if "num" is even', () => {
       expect(isEvenOrOdd(22)).to.equal("even");

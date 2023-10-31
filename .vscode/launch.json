@@ -176,13 +176,13 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "15. More Conditionals",
+      "name": "15. More Control Flow",
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
       "args": [
         "--timeout",
         "999999",
         "--colors",
-        "${workspaceFolder}/test/15-more-conditionals/more-conditionals.spec.js"
+        "${workspaceFolder}/test/15-more-conditionals/more-control-flow.spec.js"
       ],
       "internalConsoleOptions": "openOnSessionStart"
     }
