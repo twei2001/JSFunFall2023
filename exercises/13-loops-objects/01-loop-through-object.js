@@ -17,3 +17,11 @@ const links = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let html = ''
+for (let key in links){
+  const link = links[key]
+  console.log(link)
+  console.log(key)
+  html += `<a href="${link}">${key}</a>`;
+  console.log(html)
+}

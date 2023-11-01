@@ -18,3 +18,4 @@ if(stringReverse === string){
     isPalindrome = true;
 }
 console.log(isPalindrome)
+
