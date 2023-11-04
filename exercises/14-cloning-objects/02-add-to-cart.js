@@ -21,3 +21,10 @@ const newItem = { name: "Popcorn", price: 5 }; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const newShoppingCart = JSON.parse(JSON.stringify(shoppingCart));
+newShoppingCart.push(JSON.parse(JSON.stringify(newItem)))
+
+shoppingCart[0].price = 9000000;
+console.log(shoppingCart)
+
+console.log(newShoppingCart)
