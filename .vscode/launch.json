@@ -189,7 +189,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "17. More Control Flow",
+      "name": "17. Callbacks",
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
       "args": [
         "--timeout",
