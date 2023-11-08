@@ -22,13 +22,20 @@ const capitalizeString = (str) => {
  * @param {function} callback
  * @returns {array}
  */
+
 const capitalizeArray = (originalArray, callback) => {
-  // WRITE YOUR ANSWER IN HERE
+  const result = [];
+  for (let string of originalArray) {
+    const capitalizedStr = callback(string);
+    result.push(capitalizedStr);
+  }
+
+  return result;
 };
 
 // Uncomment me to test your answer in Quokka
-// const result = capitalizeArray(['hello', 'world'], capitalizeString);
-
+const result = (capitalizeArray(['hello', 'world'], capitalizeString));
+console.log(result)
 // IGNORE THIS BELOW. It is for the tests.
 
 export { capitalizeArray };

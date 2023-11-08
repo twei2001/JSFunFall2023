@@ -28,3 +28,6 @@ shoppingCart[0].price = 9000000;
 console.log(shoppingCart)
 
 console.log(newShoppingCart)
+
+//const newShoppingCart = structuredClone(shoppingCart)
+// newShoppingCart.push((structuredClone(newItem)))
