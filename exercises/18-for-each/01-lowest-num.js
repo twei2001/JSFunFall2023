@@ -9,3 +9,12 @@ const numbers = [1, 10, -2, 3, 4]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const checkNumber = (number) =>{
+    if (number < lowestNumber) {
+        lowestNumber = number;
+      }
+    };
+
+numbers.forEach(checkNumber)
+
+console.log(lowestNumber)
