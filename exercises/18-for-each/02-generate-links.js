@@ -29,3 +29,4 @@ const printLinks = (link , i) =>{
 }
   links.forEach(printLinks);
 console.log(htmlStr)
+
