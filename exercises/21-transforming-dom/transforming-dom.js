@@ -4,5 +4,14 @@
  * You may modify the HTML to add ids, classes, data attributes, etc.
  */
 (function () {
-  // Put your answers in here
+  const img = document.querySelector('img')
+  img.src = 'https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif'
+  const link = document.querySelector('.mozilla-link')
+  link.href = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+  const victoriousText = document.querySelector('.alert-success')
+  victoriousText.textContent = 'I am victorious!'
+  let buttonElement = document.getElementById("button");
+  if (buttonElement.classList.contains("btn-primary")) {
+      buttonElement.innerHTML = "✓ blue";
+  }
 })();
